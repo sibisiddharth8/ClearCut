@@ -7,7 +7,7 @@ import Navbar from './components/Navbar.jsx'
 
 const App = () => {
   return (
-    <div className='min-h-screen bg-slate-50'>
+    <div className=' bg-slate-50 px-5 sm:px-20'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
